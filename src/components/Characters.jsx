@@ -11,17 +11,20 @@ const Characters = () => {
     }, []);
 
     return (
-        <div className="Characters">
+        <div className="characters">
             {characters.map(character => (
-                <div className="Character-cards">
+                <div className="character-card">
                     <img
+                        className="card-img"
                         src={character.image}
                         alt="{character.name}"
                     />
-                    <h2>{character.name}</h2>
-                    <h3>{character.species}</h3>
-                    <p>{character.origin.name}</p>
-                    <p>{character.episode.length} episodes</p>
+                    <ul className="card-info">
+                        <li><h2>{character.name}</h2></li>
+                        <li><h3>{character.species}</h3></li>
+                        <li><p>{character.origin.name}</p></li>
+                        <li><p>{character.episode.length} episodes</p></li>
+                    </ul>
                 </div>
             ))}
         </div>
