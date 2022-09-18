@@ -1,8 +1,10 @@
 .characters {
     display: grid;
+    margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    max-width: 1300px;
+    max-width: 768px;
+    padding: 20px 0;
 }
 
 .character-card {

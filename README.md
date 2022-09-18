@@ -1,4 +1,4 @@
-# Create React App - 100tifiHOOKS 🛸🪝
+# Create React App - ScientificHooks 🛸🪝
 
 This an SPA fetching data from Rick and Morty API
 

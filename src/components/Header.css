@@ -1,0 +1,11 @@
+.Header {
+    border-bottom: solid 1px #727272;
+}
+
+.Header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 768px;
+    padding: 20px 0;
+}
