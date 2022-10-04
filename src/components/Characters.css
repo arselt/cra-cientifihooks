@@ -26,9 +26,20 @@
 .character-card:hover .card-info,
 .character-card:active .card-info {
     display: flex;
-    cursor: pointer;
     background-color: rgba(0, 0, 0, 0.6);
 } 
+
+button {
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+button:hover {
+    font-size: 28px;
+}
 
 .card-info li {
     margin:0;

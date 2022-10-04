@@ -9,3 +9,7 @@
     max-width: 768px;
     padding: 20px 0;
 }
+
+.Header-container button {
+    color: inherit;
+}

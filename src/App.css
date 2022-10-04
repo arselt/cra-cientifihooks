@@ -24,6 +24,10 @@ img {
 
 /* Theming */
 
+.App {
+  min-height: 100vh;
+}
+
 .theme-light {
   background-color: #fff;
   color: #000;
